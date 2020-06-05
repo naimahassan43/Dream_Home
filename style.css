@@ -163,16 +163,23 @@ header{
 .f_content p.second{
 	font-size: 14px;
 }
-.f_content ul{
-	list-style: none;
-	text-decoration: none;
-	margin-left: 32%;	
+.icon{
+	margin: 0 auto;
+	width:30%;
+	overflow: hidden;
+
 }
-.f_content ul li{
+.icon ul{
+	/*text-decoration: none;*/
+	margin: 0 0;
+	padding: 0 0;	
+}
+.icon ul li{
+	list-style: none;
 	float: left;
 }
-.f_content ul li a{
-	padding: 0 6px;
+.icon ul li a{
+	padding: 0 10px;
 	display: inline-block;
 }
 /*Footer End*/
